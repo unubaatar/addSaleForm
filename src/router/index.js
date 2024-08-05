@@ -6,6 +6,8 @@ import About from '@/views/About.vue';
 import Cart from '@/views/Cart.vue';
 import Login from '@/views/Login.vue';
 import Favorite from '@/views/Favorite.vue';
+import TestComponent from '@/components/testComponent.vue';
+import containerComponent from '@/components/containerComponent.vue';
 
 const routes = [
     {
@@ -32,6 +34,16 @@ const routes = [
         path: '/favorite',
         name: 'Favorite',
         component: Favorite
+    },
+    {
+        path: '/duktest',
+        name: 'duktest',
+        component: TestComponent
+    },
+    {
+        path: '/containerTest',
+        name: 'containerTest',
+        component: containerComponent
     },
 ];
 
